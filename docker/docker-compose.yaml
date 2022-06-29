@@ -1,0 +1,19 @@
+version: '2.1'
+
+networks:
+  test:
+    name: fabric_test
+
+volumes:
+  fisco-relayer.example.com:
+
+services:
+  fisco-relayer.example.com:
+    image: fisco-relayer:latest
+    container_name: fisco-relayer.example.com
+    volumes:
+      - fisco-relayer.example.com:/var/cross-network/production
+    working_dir: /var/cross-network/production
+    command: fisco-relayer --cliconfig ./config.json --fiscoconfig ./config.toml
+    networks:
+      - test

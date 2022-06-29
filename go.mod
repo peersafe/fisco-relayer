@@ -4,7 +4,7 @@ go 1.14
 
 require (
 	github.com/FISCO-BCOS/crypto v0.0.0-20200202032121-bd8ab0b5d4f1 // indirect
-	github.com/FISCO-BCOS/go-sdk v0.10.2
+	github.com/FISCO-BCOS/go-sdk v0.10.3
 	github.com/boltdb/bolt v1.3.1
 	github.com/btcsuite/btcd v0.20.1-beta
 	github.com/cmars/basen v0.0.0-20150613233007-fe3947df716e // indirect

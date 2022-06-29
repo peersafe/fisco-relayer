@@ -9,8 +9,11 @@ hello/
 log/202*
 *.crt
 config.json
-config*.toml
+config.toml
 *.key
 .idea
 pk.txt
 wallet.dat
+.DS_Store
+build
+log/*.log
