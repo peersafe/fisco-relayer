@@ -4,11 +4,11 @@ CAFile="ca.crt"
 Cert="sdk.crt"
 Key="sdk.key"
 [[Network.Connection]]
-NodeURL="124.220.176.192:20201"
+NodeURL="x.x.x.x:20201"
 GroupID=1
 
 [Account]
-KeyFile="poly_key_0x2a700dfd38c873b945803372f1b5fcff4df4afcd.pem"
+KeyFile="poly_key_0x8c873b945803372f1b5fcff4df4afcd.pem"
 
 [Chain]
 ChainID=1

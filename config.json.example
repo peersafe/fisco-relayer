@@ -1,16 +1,16 @@
 {
   "PolyConfig": {
-    "RestURL": "http://43.138.199.52:31336",
+    "RestURL": "http://x.x.x.x:31336",
     "EntranceContractAddress": "0400000000000000000000000000000000000000",
     "WalletFile": "./wallet1.dat",
     "WalletPwd": "123"
   },
   "FiscoConfig": {
     "SideChainId":10,
-    "ECCMContractAddress":"0x76e21d1abc8d03874d79e309edd592f3e4e763a9",
-    "ECCDContractAddress":"0x120f42909f6762b6af05d3a8d1d86a92098696a3",
-    "LOCKContractAddress":"0x6fafca044886caaecf5aab2e7e14eab2cf070565",
-    "PETHContractAddress":"0x1f5b23df31af94d23acc3ad69cdd054c4a9e1b43",
+    "ECCMContractAddress":"0x76e21d1abc8d01234d79e309edd592f3e4e763a9",
+    "ECCDContractAddress":"0x120f42909f676334af05d3a8d1d86a92098696a3",
+    "LOCKContractAddress":"0x6fafca044886ca223cf5aab2e7e14eab2cf070565",
+    "PETHContractAddress":"0x1f5b23df31af94d24444acc3ad69cdd054c4a9e1b43",
     "NodePath":"./sdk.crt",
     "KeyPath":"./sdk.key",
     "AgencyPath":"./ca.crt",
